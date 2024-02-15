@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    always_declare_return_types: true
+    always_use_package_imports: true
+    unnecessary_parenthesis: true
+    unnecessary_final: true
+    unnecessary_breaks: true

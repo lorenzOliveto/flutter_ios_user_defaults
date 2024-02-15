@@ -1,6 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'package:ios_user_defaults/ios_user_defaults_method_channel.dart';
+import 'package:flutter_ios_user_defaults/flutter_ios_user_defaults_method_channel.dart';
 
 abstract class IosUserDefaultsPlatform extends PlatformInterface {
   /// Constructs a IosUserDefaultsPlatform.

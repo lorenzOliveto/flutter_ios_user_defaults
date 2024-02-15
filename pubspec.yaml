@@ -1,4 +1,4 @@
-name: ios_user_defaults
+name: flutter_ios_user_defaults
 description: "Package to retrieve userdefaults from ios"
 version: 1.0.0
 homepage:

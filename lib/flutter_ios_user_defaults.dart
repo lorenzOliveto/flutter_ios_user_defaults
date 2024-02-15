@@ -1,4 +1,4 @@
-import 'package:ios_user_defaults/ios_user_defaults_platform_interface.dart';
+import 'package:flutter_ios_user_defaults/flutter_ios_user_defaults_platform_interface.dart';
 
 // Class to interact directly with ios user defaults
 class IosUserDefaults {

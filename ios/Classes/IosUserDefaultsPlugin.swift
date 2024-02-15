@@ -3,7 +3,7 @@ import UIKit
 
 public class IosUserDefaultsPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "ios_user_defaults", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "flutter_ios_user_defaults", binaryMessenger: registrar.messenger())
         let instance = IosUserDefaultsPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }

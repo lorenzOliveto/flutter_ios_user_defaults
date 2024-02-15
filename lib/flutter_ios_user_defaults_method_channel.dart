@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
-import 'package:ios_user_defaults/ios_user_defaults_platform_interface.dart';
+import 'package:flutter_ios_user_defaults/flutter_ios_user_defaults_platform_interface.dart';
 
 /// An implementation of [IosUserDefaultsPlatform] that uses method channels.
 class MethodChannelIosUserDefaults extends IosUserDefaultsPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('ios_user_defaults');
+  final methodChannel = const MethodChannel('flutter_ios_user_defaults');
 
   @override
   Future<String?> getString(String key) async {
